@@ -1,0 +1,367 @@
+@media  (max-width:1300px){
+    .about-info {
+        width: 40%;
+    }
+
+    .overlay  h4 {
+        font-size: 1.6rem;
+    }
+
+    #banner {
+        height: 20vh;
+    }
+
+    #food {
+        height: 50vh;
+    }
+
+    .food-info p {
+        line-height: 2.3rem;
+    }
+
+    .scards-con h1 {
+        font-size: 8rem;
+    }
+
+    footer {
+        height: 30vh;
+    }
+}
+
+@media  (max-width:1000px){
+    #hero h1 {
+        font-size: 8rem;
+    }
+
+    #scroller-in h4 {
+        font-size: 8rem;
+    }
+
+    #about-us img {
+        width: 20rem;
+        height: 25rem;
+    }
+
+    .about-info p {
+        font-size: 1.2rem;
+        line-height: 2;
+    }
+
+    .overlay  h4 {
+        font-size: 1.3rem;
+    }
+
+    .overlay {
+        padding: 1rem;
+    }
+
+    #banner h4 {
+        font-size: 1.7rem;
+    }
+
+    #food {
+        margin-top: 2rem;
+        min-height: 140vh;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .food-img {
+        width: 70%;
+    }
+
+    .food-info {
+        width: 80%;
+    }
+
+    #review>p {
+        width: 75%;
+        font-size: 2rem;
+    }
+
+    .scards-con h1 {
+        font-size: 6rem;
+    }
+
+    footer {
+        padding: 0 6rem;
+        gap: 8rem;
+    }
+
+    .copyright {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media  (max-width:800px){
+
+    #cursor,
+    #cursor-blur{
+        display: none;
+    }
+
+    #hero h1 {
+        font-size: 6rem;
+    }
+
+    #hero h4 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 1.2rem;
+        width: 50%;
+    }
+
+    .about-info h3 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-info p {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+
+    #card-con {
+        height: 300vh;
+        width: 100%;
+        flex-direction: column;
+        gap: 4rem;
+        margin: 3rem 0;
+    }
+
+    .card {
+        width: 60%;
+    }
+
+    #banner h4 {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+
+    #nav{
+        justify-content: space-between;
+    }
+
+    #nav .menu {
+        position: fixed;
+        top: 55px;
+        right: -360px;
+        width: 300px;
+        height: 100vh;
+        background-color: rgba(256,256,256,0.9);
+        transition: all 0.5s ease;
+    }
+
+    #nav .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: justify;
+        padding: 20px 0;
+    }
+
+    #nav .menu li{
+        margin: 12px 10px;
+        color: black;
+    }
+
+    #navicon{
+        display: flex;
+        font-size: 2rem;
+        position: absolute;
+        top: 26px;
+        right: 16px;
+        z-index: 999;
+    }
+
+
+    #scroller-in h4 {
+        font-size: 6rem;
+    }
+
+    #about-us {
+        margin-top: 7rem;
+        height: 140vh;
+        flex-direction: column;
+    }
+
+    #about-us img {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .about-info p {
+        font-size: 1.3rem;
+        line-height: 1.9;
+    }
+
+    .about-info {
+        width: 80%;
+        margin: 2rem 0;
+    }
+
+    #banner {
+        height: 25vh;
+    }
+
+    .scards-con h1 {
+        font-size: 4rem;
+    }
+
+    .scard {
+        width: 20%;
+        height: 35%;
+    }
+
+    .scard h4 {
+        font-size: 2rem;
+    }
+
+    .food-img {
+        width: 90%;
+    }
+
+    footer {
+        padding: 0 3rem;
+        gap: 5rem;
+    }
+}
+
+
+@media  (max-width:550px){
+
+    .food-img {
+        height: 30%;
+    }
+
+    #review img {
+        height: 3rem;
+    }
+
+    #review>p {
+        width: 65%;
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    #review {
+        height: 80vh;
+    }
+
+    .scards-con h1 {
+        font-size: 3rem;
+    }
+
+    .scards-con {
+        height: 30vh;
+    }
+
+    .footer-logo img {
+        display: none;
+    }
+
+    .list3 h4 {
+        font-size: 1rem;
+        line-height: 15px;
+    }
+
+    .list1 h3 {
+        font-size: 1rem;
+    }
+
+    .list2 h3 {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 0 1rem;
+        gap: 2rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+
+}
+
+@media  (max-width: 400px){
+
+    #hero h1 {
+        font-size: 3.4rem;
+    }
+
+    #hero h4 {
+        font-size: 1.5rem;
+    }
+
+    #hero p {
+        font-size: 1.3rem;
+        width: 80%;
+        line-height: 1.7rem;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    #banner {
+        height: 20vh;
+    }
+
+    #banner h4 {
+        font-size: 1rem;
+        line-height: 2rem;
+        width: 80%;
+    }
+
+    .scard h4 {
+        font-size: 1rem;
+    }
+
+    .list3 h4 {
+     display: none;
+    }
+
+    #card-con {
+        height: 100vh;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 1rem 0;
+    }
+
+    .food-img {
+        height: 25%;
+    }
+
+    #colon1,
+    #colon2 {
+        display: none;
+    }
+
+    .scards-con h1 {
+        font-size: 2rem;
+    }
+
+    #review {
+        height: 50vh;
+    }
+
+    #food {
+        margin-top: 1.5rem;
+        height: 100vh;
+        min-height: 0;
+    }
+
+    footer {
+        justify-content: space-between;
+        height: 20vh;
+    }
+}
+
+
