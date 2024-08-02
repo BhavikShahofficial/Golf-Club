@@ -175,8 +175,8 @@
         display: flex;
         font-size: 2rem;
         position: absolute;
-        top: 26px;
-        right: 16px;
+        top: 50px;
+        right: 36px;
         z-index: 999;
     }
 
